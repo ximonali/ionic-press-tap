@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Press and Tap Events
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-grid>
+  <ion-row>
+    <ion-col text-center>
+      <h3>Enter the right code</h3>
+      <p>Tap twice, press four times</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-list>
+        <ion-item>
+          <p>Tapped: {{ tapped }}</p>
+        </ion-item>
+        <ion-item>
+          <p>Pressed: {{ pressed }}</p>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
