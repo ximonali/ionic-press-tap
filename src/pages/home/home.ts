@@ -35,4 +35,8 @@ pressed = 0;
     this.tapped++;
   }
 
+  didWin(){
+    return this.tapped == 2 && this.pressed == 4;
+  }
+
 }

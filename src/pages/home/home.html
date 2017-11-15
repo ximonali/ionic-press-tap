@@ -11,7 +11,8 @@
   <ion-row>
     <ion-col text-center>
       <h3>Enter the right code</h3>
-      <p>Tap twice, press four times</p>
+      <p *ngIf = "!didWin()">Tap twice, press four times</p>
+      <p *ngIf = "didWin()" style="color:darkgreen">You Won!</p>
     </ion-col>
   </ion-row>
 
