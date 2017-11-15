@@ -14,3 +14,5 @@ Ionic + Angular (Detect press/tap events)
 4. Start the app: `> ionic serve`
 5. View in browser at: `http://localhost:8100/`
 
+# Demo
+[press-tap](http://simongg.com/ionic/press-tap).
